@@ -19,22 +19,25 @@ Most modern ideas for SETI presume the use of radio waves to transmit signals, r
 
 The other side to modern SETI work is called Active SETI or METI (Messaging to Extraterrestrial Intelligence). As the name suggests, the goal of METI is to send messages into space in the hope that they will be detected by intelligent extraterrestrial life. The first radio broadcast for extraterrestrial intelligence was the Morse Message, sent by the Soviet Union in 1962 to the planet Venus [9]. The message consisted of the three words MIR (meaning both “peace” and “world”), LENIN, and SSSR (in Russian, this is the abbreviation for Soviet Union), all sent in Morse code [9]. Shortly afterward, in 1974, a radio message containing some very basic information about the human race, like the elements that make up DNA, a diagram of our solar system, and a simple picture of a human being, was sent from the Arecibo radio telescope in Puerto Rico toward a globular cluster about 22,000 light-years away [10]. See Figure 1 below for a picture and more information on this message, called the Arecibo message.
 
-![A collected image of the binary Arecibo message.](/docs/assets/arecibo.png)
-*A visualization of the binary 1974 Arecibo message, where each box represents one bit (black if the bit is 1, white if it’s 0). The picture is broken into 73 groups of 23 characters, and each group is read from right to left. From top to bottom, the contents of the message are
+<img align="left" height = "600" src="/docs/assets/arecibo.png">
 
-1) The numbers 1 to 10,
+*A visualization of the binary 1974 Arecibo message, where each box represents one bit (black if the bit is 1, white if it’s 0). The picture is broken into 73 groups of 23 characters, and each group is read from right to left. From top to bottom, the contents of the message are*
 
-2) The atomic numbers of hydrogen, carbon, nitrogen, oxygen, and phosphorus, the basic chemicals of life on earth,
+*1) The numbers 1 to 10,*
 
-3) Formulas for the chemical building blocks of DNA,
+*2) The atomic numbers of hydrogen, carbon, nitrogen, oxygen, and phosphorus, the basic chemicals of life on earth,*
 
-4) A representation of the DNA double helix and the number of nucleotides in the human genome,
+*3) Formulas for the chemical building blocks of DNA,*
 
-5) A stick figure of a human being and the population of Earth at the time,
+*4) A representation of the DNA double helix and the number of nucleotides in the human genome,*
 
-6) A schematic of our solar system, and
+*5) A stick figure of a human being and the population of Earth at the time,*
 
-7) A drawing of the Arecibo radio telescope (10).*
+*6) A schematic of our solar system, and*
+
+*7) A drawing of the Arecibo radio telescope* [10].
+
+<br clear="left"/>
 
 Since the Arecibo message, several other radio messages have been sent out to various nearby stars, each with their own ways of representing the information that we would like to get across. However, it is important to note that there is currently much debate about whether or not we should be sending messages out into space in the first place. In 2015, a statement on METI signed by many in the field of SETI was released which said that a “worldwide scientific, political, and humanitarian discussion must occur before any message is sent” [11]. My personal view (although neither informed nor important enough to be relevant to the debate) is more in line with Russian radio engineer and astronomer Alexander Zaitsev, who argues that fears of alerting some super powerful and aggressive extraterrestrial civilization to our location by sending out messages are misplaced because such advanced civilizations would find us from our radio leakage anyways [12]. Zaitsev also points out that if all extraterrestrial civilizations had a similarly isolationist attitude, SETI would be pointless: “Searching is meaningless if no one feels the need to transmit...” [12].
 
