@@ -115,7 +115,42 @@ Calculating the Denver traffic data's CV for each direction and time, we get the
 [crash]: https://www.denverpost.com/2021/02/03/one-dead-two-injured-crash-i-70/
 [snow]: https://www.weather.gov/bou/March13_14_2021Storm
 
-INSERT IMAGE
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+</style>
+<table class="center">
+<thead>
+  <tr>
+    <th class="tg-uzvj"></th>
+    <th class="tg-c3ow">CV</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-c3ow">12 pm Eastbound&nbsp</td>
+    <td class="tg-c3ow">0.160</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">12 pm Westbound&nbsp</td>
+    <td class="tg-c3ow">0.149</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">5 pm Eastbound&nbsp</td>
+    <td class="tg-c3ow">0.173</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">5 pm Westbound&nbsp</td>
+    <td class="tg-baqh">0.182</td>
+  </tr>
+</tbody>
+</table>
 
 Since attendance patterns vary for each simulation, I ran fifteen trials of the El Farol and random guess scenarios and calculated their CVs, and the average El Farol CV was 0.213 while the average random guess CV was 0.00812. The minimum and maximum CVs for the El Farol simulation were 0.189 and 0.243, and the min/max CVs for random guesses were 0.00649 and 0.00899. For how idealized and different the game theoretic El Farol model is from the complex world of real driving, it is impressive how similar the dispersion of the simulation's attendance numbers is to that of real traffic (well within the same order of magnitude). By contrast the attendance based on random guess strategies is so much more tightly clustered than either the real data or the El Farol simulation, which is evident both from the attendance plots above and the random guess CV being approximately two orders of magnitude smaller than the others.
 
