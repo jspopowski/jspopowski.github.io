@@ -54,8 +54,7 @@ From the historical information and context presented in the beginning of this b
 
 [5] Cocconi, Giuseppe, and Philip Morrison. “Searching for interstellar communications.” Nature 184.4690 (1959).
 
-[6] “Early SETI: Project Ozma, Arecibo Message.” SETI Institute, (http://www.seti.org/setiinstitute/
-project/details/early-seti-project-ozma-arecibo-message).
+[6] “Project Ozma.” SETI Institute, [https://www.seti.org/project-ozma](https://www.seti.org/project-ozma).
 
 [7] Gray, Robert H. The elusive Wow: searching for extraterrestrial intelligence. Palmer Square Press, 2012.
 
