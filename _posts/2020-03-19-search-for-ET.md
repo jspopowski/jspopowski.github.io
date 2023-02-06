@@ -54,22 +54,24 @@ From the historical information and context presented in the beginning of this b
 
 [5] Cocconi, Giuseppe, and Philip Morrison. “Searching for interstellar communications.” Nature 184.4690 (1959).
 
-[6] “Early SETI: Project Ozma, Arecibo Message.” SETI Institute, http://www.seti.org/setiinstitute/
-project/details/early-seti-project-ozma-arecibo-message.
+[6] “Early SETI: Project Ozma, Arecibo Message.” SETI Institute, [http://www.seti.org/setiinstitute/
+project/details/early-seti-project-ozma-arecibo-message](http://www.seti.org/setiinstitute/
+project/details/early-seti-project-ozma-arecibo-message).
 
 [7] Gray, Robert H. The elusive Wow: searching for extraterrestrial intelligence. Palmer Square Press, 2012.
 
 [8] Garber, Stephen J. ”Searching for good science: the cancellation of NASA’s SETI program.” Journal of the British Interplanetary Society 52.1 (1999): 3-12.
 
-[9] Valentine, Genevieve. “You Never Get a Seventh Chance to Make a First Impression: An Awkward History of Our Space Transmissions.” Lightspeed Magazine, 10 Dec. 2011, http://www.lightspeedmagazine.com/nonfiction/you-never-get-a-seventh-chance-to-makea-first-impression-an-awkward-history-of-our-space-transmissions
+[9] Valentine, Genevieve. “You Never Get a Seventh Chance to Make a First Impression: An Awkward History of Our Space Transmissions.” Lightspeed Magazine, 10 Dec. 2011, [http://www.lightspeedmagazine.com/nonfiction/you-never-get-a-seventh-chance-to-makea-first-impression-an-awkward-history-of-our-space-transmissions](http://www.lightspeedmagazine.com/nonfiction/you-never-get-a-seventh-chance-to-makea-first-impression-an-awkward-history-of-our-space-transmissions)
 
 [10] Steele, Bill. “It’s the 25th Anniversary of Earth’s First (and Only) Attempt to
-Phone E.T.” Cornell News, 12 Nov. 1999, web.archive.org/web/20080802005337/
-http://www.news.cornell.edu/releases/Nov99/Arecibo.message.ws.html
+Phone E.T.” Cornell News, 12 Nov. 1999, [web.archive.org/web/20080802005337/
+http://www.news.cornell.edu/releases/Nov99/Arecibo.message.ws.html](web.archive.org/web/20080802005337/
+http://www.news.cornell.edu/releases/Nov99/Arecibo.message.ws.html)
 
 [11] “REGARDING MESSAGING TO EXTRATERRESTRIAL INTELLIGENCE (METI) /
 ACTIVE SEARCHES FOR EXTRATERRESTRIAL INTELLIGENCE (ACTIVE SETI):”
-Statement Regarding METI/Active SETI. 14 Feb. 2015, https://setiathome.berkeley.edu/meti_statement_0.html.
+Statement Regarding METI/Active SETI. 14 Feb. 2015, [https://setiathome.berkeley.edu/meti_statement_0.html](https://setiathome.berkeley.edu/meti_statement_0.html).
 
 [12] Zaitsev, Alexander. ”The SETI paradox.” arXiv preprint physics/0611283 (2006).
 
@@ -79,7 +81,7 @@ Statement Regarding METI/Active SETI. 14 Feb. 2015, https://setiathome.berkeley.
 
 [15] Oliver, B. M.; J. Billingham (Eds.) (1971). Project Cyclops. NASA CR114445.
 
-[16] Sullivan, Woodruff T. “Eavesdropping Mode and Radio Leakage from Earth.” *NASA*, NASA, https://history.nasa.gov/CP-2156/ch5.4.htm.
+[16] Sullivan, Woodruff T. “Eavesdropping Mode and Radio Leakage from Earth.” *NASA*, NASA, [https://history.nasa.gov/CP-2156/ch5.4.htm](https://history.nasa.gov/CP-2156/ch5.4.htm).
 
 [17] Griffiths, David Jeffrey. Introduction to Electrodynamics. Cambridge: Cambridge UP, 2018. Print. p. 471.
 
