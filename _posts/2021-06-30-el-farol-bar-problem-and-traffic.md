@@ -141,19 +141,19 @@ table.center {
 </thead>
 <tbody>
   <tr>
-    <td class="tg-c3ow">12 pm Eastbound&nbsp</td>
+    <td class="tg-c3ow">12 pm Eastbound</td>
     <td class="tg-c3ow">0.160</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">12 pm Westbound&nbsp</td>
+    <td class="tg-c3ow">12 pm Westbound</td>
     <td class="tg-c3ow">0.149</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">5 pm Eastbound&nbsp</td>
+    <td class="tg-c3ow">5 pm Eastbound</td>
     <td class="tg-c3ow">0.173</td>
   </tr>
   <tr>
-    <td class="tg-baqh">5 pm Westbound&nbsp</td>
+    <td class="tg-baqh">5 pm Westbound</td>
     <td class="tg-baqh">0.182</td>
   </tr>
 </tbody>
