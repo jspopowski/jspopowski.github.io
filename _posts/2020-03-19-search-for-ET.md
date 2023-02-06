@@ -63,8 +63,7 @@ From the historical information and context presented in the beginning of this b
 [9] Valentine, Genevieve. “You Never Get a Seventh Chance to Make a First Impression: An Awkward History of Our Space Transmissions.” Lightspeed Magazine, 10 Dec. 2011, [http://www.lightspeedmagazine.com/nonfiction/you-never-get-a-seventh-chance-to-makea-first-impression-an-awkward-history-of-our-space-transmissions](http://www.lightspeedmagazine.com/nonfiction/you-never-get-a-seventh-chance-to-makea-first-impression-an-awkward-history-of-our-space-transmissions)
 
 [10] Steele, Bill. “It’s the 25th Anniversary of Earth’s First (and Only) Attempt to
-Phone E.T.” Cornell News, 12 Nov. 1999, (web.archive.org/web/20080802005337/
-http://www.news.cornell.edu/releases/Nov99/Arecibo.message.ws.html)
+Phone E.T.” Cornell News, 12 Nov. 1999, [http://web.archive.org/web/20080802005337/http://www.news.cornell.edu/releases/Nov99/Arecibo.message.ws.html](http://web.archive.org/web/20080802005337/http://www.news.cornell.edu/releases/Nov99/Arecibo.message.ws.html)
 
 [11] “REGARDING MESSAGING TO EXTRATERRESTRIAL INTELLIGENCE (METI) /
 ACTIVE SEARCHES FOR EXTRATERRESTRIAL INTELLIGENCE (ACTIVE SETI):”
