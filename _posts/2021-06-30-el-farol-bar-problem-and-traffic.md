@@ -43,7 +43,8 @@ Our drivers make their initial guesses about how the traffic will be and act bas
 
 Denoting the decision to drive by $x=1$ and the decision to stay home by $x=0$, and letting $n$ be the actual number of drivers who drive on the week ($n$ ≤ $N$), this corresponds to the following payoff function [5]:
 
-![Piecewise payoff function.](/docs/assets/2021-06-30/payoff-function.jpg)
+<img align="center" src="/docs/assets/2021-06-30/payoff-function.jpg">
+<br clear="center"/>
 
 The drivers in our model will be given a set number $k$ of strategies (or "predictors" in Arthur's original language [1]) picked randomly from a finite list of functions that map traffic histories to a prediction about the traffic that week. These strategies include:
 
@@ -67,8 +68,9 @@ The number of weak pure-strategy Nash equilibria in our one shot strategic game 
 
 Outcomes with these Nash equilibria are _Pareto efficient_ in that no other outcome increases at least one player's payoff without decreasing anyone else's, but they are clearly unfair because only the same $m$ people get to drive each week [5]. The results of a simulation for one such pure strategy Nash equilibrium in the El Farol Bar Problem are shown below, with $N = 10000$ and $m = 0.6N$. This specific implementation has $m$ people always guess that 20% of the $N$ total players will show up (so those $m$ people always choose to go), and the remaining $N−m$ people always guess that 70% of the $N$ players will go (so they never show up).
 
-INSERT IMAGE
-INSERT IMAGE
+![Attendances with a pure strategy.](/docs/assets/2021-06-30/pure-strategy-attendance.png)
+![Success histogram with a pure strategy.](/docs/assets/2021-06-30/pure-strategy-histogram.png)
+*Pure-strategy Nash equilibrium attendance figures and agent success histogram over the 60 week simulation period, where everyone is supplied with the same random initial data for the first 20 weeks of traffic.*
 
 It is very important to note that most combinations of pure strategies among the agents do not produce a Nash equilibrium, and any uniform pure strategy applied by all the agents is bound to fail [1]. For example, if everyone's strategy was to take the average of the previous week's traffic then they would all predict the same attendance and act in the same way, which would inevitably lead to everyone being unhappy with their decision. For a more general problem involving mixed strategies it is also very unlikely that the total utility gets maximized, because it requires a level of coordination in the driver's strategies that is infeasible without communication. However the Nash equilibria are still important as stable points of a dynamic adjustment process in which the drivers search for strategies that maximize their utility, even when the information available is minimal [6]. To reinforce this point we will now consider the situation where the drivers are maximally uncertain about the traffic numbers, so they resort to an entirely random guess about how many drivers will be on the road every week that ranges from $0$ to $N$.
 
@@ -85,8 +87,9 @@ So for large $N$ the attendance based on random guesses fluctuates around the pu
 \end{aligned}
 For the 60-week simulation period that we are considering, this corresponds to an expected 30 successes per driver. Taking a look at the simulation results for $N = 10000$ and $m = 0.6N$, we find that our expectations are corroborated.
 
-INSERT IMAGE
-INSERT IMAGE
+![Attendances with a random strategy.](/docs/assets/2021-06-30/random-guess-attendances.png)
+![Success histogram with a random strategy.](/docs/assets/2021-06-30/random-guess-histogram.png)
+*Attendance figures and agent success histogram over the 60 week simulation period, where each agent randomly guesses about the next week’s attendance and acts on those guesses. Note the blue line is an exact calculation of the expected number of successes for 10,000 agents (30.0651 to be specific), but for this particular simulation the mean successes were slightly higher than the expected value. Each agent is supplied with the same random initial data for the first 20 weeks of traffic.*
 
 There are two things I want to point out about the driver success histogram above. First, the number of successes per driver actually follows a binomial distribution, since each week the likelihood of success depends on the total number of drivers who show up independently on the day and each one drives with probability $p$. However, since $N$ is large the central limit theorem tells us that the Gaussian distribution is a good approximation for our distribution, which is why the data fits a Gaussian so well. Second, the random nature of the driver strategies means that the peak of the Gaussian fit fluctuates around the expected number of successes (blue line in the plot) for each simulation that you run, which is why the trial shown here has its peak at a slightly higher number of successes than the 30 we predicted. If you ran many trials and averaged the Gaussian peak locations, the answer would converge to the expected success number.     
 
@@ -94,8 +97,9 @@ There are two things I want to point out about the driver success histogram abov
 
 This is all well and good, but what drivers do you know make a totally random guess about the traffic before they decide to go driving? Also if their guesses are completely wrong, you would expect them to change their strategy over time. Let's let all hell break loose now and give each driver the full power of the original El Farol Bar Problem. We maintain $N = 10000$ and $m = 0.6N$ for this simulation, but at the beginning of the simulation each of the drivers are randomly assigned $k = 3$ of the $13$ possible pure or mixed strategies. Remember that a driver will switch their active strategy out for a different strategy available to them if they fail to maximize their utility with their current strategy for a given week. The results of the simulation are below. 
 
-INSERT IMAGE
-INSERT IMAGE
+![Attendances for full El Farol Bar Problem.](/docs/assets/2021-06-30/mixed-strategy-attendance.png)
+![Success histogram for full El Farol Bar Problem.](/docs/assets/2021-06-30/mixed-strategy-histogram.png)
+*Attendance figures and agent success histogram over the 60 week simulation period for the full El Farol Bar Problem, where each agent aims to maximize their utility and has access to k possible strategies that they can switch between. Each agent is supplied with the same random initial data for the first 20 weeks of traffic. Notice that the success histogram now peaks below t/2=30 successes; compared to the situation with random guesses, the game is more competitive and there are fewer successes to be had on average.*
 
 Despite the fact that the agents apply very different strategies, the attendance still fluctuates around the pure strategy Nash equilibrium value like it did when everyone was making random guesses! Apparently giving agents the ability to change their strategy based on utility maximization does not prevent the system as a whole from self-organizing towards the stable point provided by the Nash equilibrium. Any patterns in attendance that some agents may pick up on and attempt to exploit are quickly stamped out by the rest of the field [1]. However, it should be noted that when compared with the random guesses simulation there is much higher variance in the El Farol simulated attendance figures. This goes hand in hand with the fact that the success histogram is now  centered below $t/2=30$ successes: the game becomes significantly more competitive once the agents can change their strategy rather than being restricted to random guesses. 
 
@@ -105,8 +109,9 @@ To reiterate a point made earlier, the general result of fluctuations around the
 
 All of these game theoretic simulations are certainly interesting, but do they really relate to traffic situations in the real world? As a point of comparison we can pull [continuous data from CDOT (Colorado Department of Transportation) on an active road in Denver](https://dtdapps.coloradodot.info/otis/TrafficData). Of course we can't directly compare the results of our simulation with continuous data because there are daily periodic variations in the real traffic data, but if we pick a particular time to study then we can see what the day-to-day traffic fluctuations look like. Specifically I'll use the 12 pm and 5 pm data from Interstate 70 East (Station 000511) over the months of January-March 2021, separating out the primary (P, east) and secondary (S, west) directions. The count data for a given time refers to the total number of cars that were counted over one hour starting at that time (e.g. starting at 12 pm and ending at 1 pm).   
 
-INSERT IMAGE 
-INSERT IMAGE
+![Denver traffic from January to March 2021 at noon.](/docs/assets/2021-06-30/12hDenverTraffic.png)
+![Denver traffic from January to March 2021 at 5pm.](/docs/assets/2021-06-30/17hDenverTraffic.png)
+*Real traffic count data taken on I70 East in Denver. We choose here to look at the 12 pm - 1 pm (top) and 5 pm - 6 pm (bottom) data.  All times are MST.*
 
 Remember that all of our simulations were initialized with 20 weeks of random data, so we should only compare the Denver traffic data above with the simulation results after the start of the game (weeks 20-80). Also recall that the only reason we represented the simulation duration in weeks was to match the framing of the original El Farol Bar Problem, but we could have easily called them day-to-day simulations simply by renaming the units on the horizontal axis. Thus we can compare the simulation results directly with the Denver day-to-day data. Qualitatively the real-life traffic numbers look quite similar to our El Farol simulation, with sizable fluctuations around an apparent equilibrium value, the "typical" occupation of Interstate 70 East at a given time of day. It is likely that this equilibrium value drifts seasonally, but it appears relatively fixed over this three-month period. One clear difference from our simulation is the major traffic dips recorded on February 3rd for the Eastbound 12 pm data and along both directions of traffic and during both times of day from March 13th through March 15th. The February 3rd dip was due to a [large crash that occured before noon][crash] which shut down eastbound traffic on the interstate for several hours, which explains why the 5 pm eastbound data shows no dip on that day. The blanket drops in traffic from March 13th-March 15th were caused by a [historic snowstorm that hit much of Colorado][snow], but which was particularly centered around the Denver/Fort Collins region. Our El Farol simulation fails to account for such anomalous events when predicting traffic numbers. 
 
