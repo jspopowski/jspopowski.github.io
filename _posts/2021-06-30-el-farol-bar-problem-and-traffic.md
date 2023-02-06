@@ -7,13 +7,15 @@
 
 If there's one thing we can all agree on, it's that traffic sucks. Growing up in Colorado, I've experienced the torment of weekend ski traffic up in the mountains a lot more than I cared to. 
 
-INSERT IMAGE
+![Image of Grand Lake, Colorado.](/docs/assets/2021-06-30/Grand-Lake.JPG)
+*Worth it though...*
 
 It's especially irritating when you try to account for the traffic by leaving a bit earlier or later than usual and still end up stuck, potentially for hours. Through this painful ordeal one realizes that previous experience with traffic is insufficient to predict how bad it will be on any individual day. Of course short-term and long-term trends can arise for particular locations or times (the roads heading to the ski slopes during the winter are always busy, during the summer much less so), but day to day the number of drivers on any given road appears highly unpredictable. This is due to the large number of independent agents who have to make the decision to drive on the same road at the same time. Traffic is then seen as an emergent property that arises from the collective presence of a sufficient number of drivers on the road at once. 
 
 Before driving, a driver considers the information they know about the traffic along their route and determines whether or not the drive is worth it to them, without knowledge of what the other drivers are deciding (hence the term independent agents). This interplay between many interacting agents is comparable to stock market speculation, where a large number of independent traders have access to the same information (the stock's performance over time) and make decisions about whether to buy or sell a business's stock based on that information. The price at which a willing buyer and seller agree to trade at any time determines the stock price. The traditional economic approach treats the traders as perfectly rational, logical beings who will mitigate losses and take advantage of favorable circumstances. But is the decision making process in either of these scenarios actually perfectly rational?
 
-INSERT IMAGE
+![Hourly highway traffic data in Delaware.](/docs/assets/2021-06-30/Traffic-data.jpg)
+*Hourly highway traffic data on Route 1 in Delaware taken before, during, and after Hurricane Irene in August 2011. The blue line represents northbound traffic, and the dashed red line is southbound traffic. Note the recurring patterns of low traffic during late night/early morning and high traffic around noon and the end of the work day, and how those patterns were almost entirely eliminated during the hurricane. Figure reproduced from* [4] *under a Creative Commons license. Copyright © 2012 International Association of Traffic and Safety Sciences. Published by Elsevier Ltd.*
 
 When faced with complicated or ill-defined situations, human **deductive reasoning** where one starts with a set of premises and uses logic to come to a conclusion that is necessarily true from those premises falls short. In the case of our traffic example, the fact that there are many other independent drivers playing the same game as you - and I'm using the word game in the technical sense, as we'll see in a bit - means that it is by definition impossible to anticipate and account for what they are going to decide as part of your strategy. The information available to you is incomplete and you can't depend on other people making perfectly rational decisions, hence perfect rationality with "objective, well-defined, shared assumptions" goes out the window [1]. Instead in such a situation modern psychology says that people will resort to **inductive reasoning** based on pattern recognition, hypothesis formation and testing, and adjusting hypotheses as needed, which humans are extremely good at [3]. You look at the previous days' numbers, try to extrapolate trends, and if those trends fail you then you're less likely to rely on them when forming your strategy next time. How would one go about modeling inductive reasoning in a situation with a large number of interacting agents, like drivers on a highway or traders in the stock market? 
 
@@ -41,7 +43,7 @@ Our drivers make their initial guesses about how the traffic will be and act bas
 
 Denoting the decision to drive by $x=1$ and the decision to stay home by $x=0$, and letting $n$ be the actual number of drivers who drive on the week ($n$ ≤ $N$), this corresponds to the following payoff function [5]:
 
-INSERT IMAGE
+![Piecewise payoff function.](/docs/assets/2021-06-30/payoff-function.jpg)
 
 The drivers in our model will be given a set number $k$ of strategies (or "predictors" in Arthur's original language [1]) picked randomly from a finite list of functions that map traffic histories to a prediction about the traffic that week. These strategies include:
 
