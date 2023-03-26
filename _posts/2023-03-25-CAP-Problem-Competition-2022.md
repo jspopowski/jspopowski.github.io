@@ -66,16 +66,22 @@ and $x_0=y_0=0$ m (putting the origin at the cliff's edge where the diver jumped
 \end{figure}
 
 **We found that the total duration of the fall is approximately $t_{f}=2.71$ s.** As a sanity check, we can ensure that this time is longer than the fall time in vacuum, using the kinematics equation
+
+$$
 \begin{equation}
     y(t) = y(0)+v_y(0)t-\frac{1}{2}gt^2.
 \end{equation}
+$$
 
 Applying the same initial conditions as above, this is
 
+$$
 \begin{equation}
-    0 = (\qty{35}{m})-\frac{1}{2}gt^2,
+    0 = (\text{35 m})-\frac{1}{2}gt^2,
 \end{equation}
-giving us a dragless fall time of $t=\qty{2.67}{s}$, slightly faster as expected. I have also plotted the diver's trajectory in vacuum as the dashed lines in Figure {\ref{fig1}}.
+$$
+
+giving us a dragless fall time of $t=2.67$ s, slightly faster as expected. I have also plotted the diver's trajectory in vacuum as the dashed lines in Figure {\ref{fig1}}.
 
 ##### Conduction/Convection
 Conduction and convection are fundamentally the same: heat is transferred between two systems through molecular collisions. Convection is just the form of conduction that occurs between an object and the \textit{nonstationary} fluid that it is immersed in. Hence, one could rebrand conduction and convection as non-moving-fluid conduction and moving-fluid conduction, respectively. Practically speaking, we distinguish between the two because the rates of conduction and convection can be dramatically different. 
