@@ -41,7 +41,7 @@ This is a pair of coupled differential equations which cannot be solved analytic
 
 $$
 \begin{equation*}
-    v_x(0) = \text{1 m/s \;\;\;\; $v_y(0)=0$ m/s},
+    v_x(0) = \text{1 m/s $\;\;\;\; v_y(0)=0$ m/s},
 \end{equation*}
 $$
 
