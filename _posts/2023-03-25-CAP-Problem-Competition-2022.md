@@ -19,21 +19,32 @@ $$
 $$
 
 where the coefficient $c$ for an object with frontal area $A$ in a fluid of density $\rho$ is defined as
+
+$$
 \begin{equation}\label{coeff}
 c = \frac{1}{2}\rho C_{D}A.
 \end{equation}
+$$
+
 Here $C_{D}$ is called the drag coefficient, which depends on the shape and orientation of the object and the Reynolds number. Splitting Equation (\ref{vel_EOM}) into component form, we find
+
+$$
 \begin{equation}\label{components}
 \begin{rcases}
  m\dot{v}_x &= -c\sqrt{v_x^2+v_y^2}v_x\\
  m\dot{v}_y &= -mg-c\sqrt{v_x^2+v_y^2}v_y.
 \end{rcases}
 \end{equation}
+$$
 
 This is a pair of coupled differential equations which cannot be solved analytically \cite{taylor}. We instead solved them numerically with the initial conditions
+
+$$
 \begin{equation*}
     v_x(0) = \qty{1}{m/s}, \;\;\;\; v_y(0) = \qty{0}{m/s},
 \end{equation*}
+$$
+
 and $x_0=y_0=\qty{0}{m}$ (putting the origin at the cliff's edge where the diver jumped from). We used the function \textit{scipy.integrate.odeint()} in Python to solve this set of equations, with the resulting speed and trajectory plots shown in Figure \ref{fig1}. Note that the coefficient $c$ in Equation (\ref{coeff}) served as a fit parameter to ensure that we obtained the correct final speed of \qty{25}{m/s} at the moment that the diver's y-position is \qty{-35}{m}.
 
 \begin{figure}
