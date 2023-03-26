@@ -45,7 +45,7 @@ $$
 \end{equation*}
 $$
 
-and $x_0=y_0=0$ m (putting the origin at the cliff's edge where the diver jumped from). We used the function \textit{scipy.integrate.odeint()} in Python to solve this set of equations, with the resulting speed and trajectory plots shown in Figure \ref{fig1}. Note that the coefficient $c$ in Equation (\ref{coeff}) served as a fit parameter to ensure that we obtained the correct final speed of \qty{25}{m/s} at the moment that the diver's y-position is \qty{-35}{m}.
+and $x_0=y_0=0$ m (putting the origin at the cliff's edge where the diver jumped from). We used the function *scipy.integrate.odeint()* in Python to solve this set of equations, with the resulting speed and trajectory plots shown in Figure \ref{fig1}. Note that the coefficient $c$ in Equation (\ref{coeff}) served as a fit parameter to ensure that we obtained the correct final speed of 25 m/s at the moment that the diver's y-position is -35 m.
 
 \begin{figure}
   \centering
@@ -65,7 +65,7 @@ and $x_0=y_0=0$ m (putting the origin at the cliff's edge where the diver jumped
 \label{fig1}
 \end{figure}
 
-\textbf{We found that the total duration of the fall is approximately $t_{f}=\qty{2.71}{s}$.} As a sanity check, we can ensure that this time is longer than the fall time in vacuum, using the kinematics equation
+**We found that the total duration of the fall is approximately $t_{f}=2.71$ s.** As a sanity check, we can ensure that this time is longer than the fall time in vacuum, using the kinematics equation
 \begin{equation}
     y(t) = y(0)+v_y(0)t-\frac{1}{2}gt^2.
 \end{equation}
