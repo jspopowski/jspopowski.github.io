@@ -41,11 +41,11 @@ This is a pair of coupled differential equations which cannot be solved analytic
 
 $$
 \begin{equation*}
-    v_x(0) = \qty{1}{m/s}, \;\;\;\; v_y(0) = \qty{0}{m/s},
+    v_x(0) = \text{1 m/s \;\;\;\; $v_y(0)=0$ m/s},
 \end{equation*}
 $$
 
-and $x_0=y_0=\qty{0}{m}$ (putting the origin at the cliff's edge where the diver jumped from). We used the function \textit{scipy.integrate.odeint()} in Python to solve this set of equations, with the resulting speed and trajectory plots shown in Figure \ref{fig1}. Note that the coefficient $c$ in Equation (\ref{coeff}) served as a fit parameter to ensure that we obtained the correct final speed of \qty{25}{m/s} at the moment that the diver's y-position is \qty{-35}{m}.
+and $x_0=y_0=0$ m (putting the origin at the cliff's edge where the diver jumped from). We used the function \textit{scipy.integrate.odeint()} in Python to solve this set of equations, with the resulting speed and trajectory plots shown in Figure \ref{fig1}. Note that the coefficient $c$ in Equation (\ref{coeff}) served as a fit parameter to ensure that we obtained the correct final speed of \qty{25}{m/s} at the moment that the diver's y-position is \qty{-35}{m}.
 
 \begin{figure}
   \centering
