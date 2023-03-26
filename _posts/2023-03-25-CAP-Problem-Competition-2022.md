@@ -10,12 +10,12 @@ Regardless of whether the cliff diver is standing at the top of the cliff, activ
 
 ##### Motion of the Diver
 For a human in free fall, the dominant drag force is quadratic, and we can neglect the linear drag term \cite{taylor}. Under this approximation, the equation of motion for the diver is
-$$
+$
 \begin{align}
     m\frac{d^2\boldsymbol{x}}{dt^2} &= m\boldsymbol{g}-cv^2\boldsymbol{\hat{v}} \nonumber \\
     &=m\boldsymbol{g}-cv\boldsymbol{v}, \label{vel_EOM}
 \end{align}
-$$
+$
 
 where the coefficient $c$ for an object with frontal area $A$ in a fluid of density $\rho$ is defined as
 \begin{equation}\label{coeff}
