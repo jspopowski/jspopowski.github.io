@@ -2,6 +2,7 @@ theme: minima
 title: Jared Popowski
 
 header_pages:
+  - about.md
   - blog.md
 collections:
   categories:
