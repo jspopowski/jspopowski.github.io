@@ -3,7 +3,6 @@ title: Jared Popowski
 
 header_pages:
   - blog.md
-  - archive.md
 collections:
   categories:
     output: true
