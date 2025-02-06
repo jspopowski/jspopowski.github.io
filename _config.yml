@@ -2,7 +2,7 @@ theme: minima
 title: Our Curious World
 
 header_pages:
-  - about.md
+  - blog.md
   - archive.md
 collections:
   categories:
