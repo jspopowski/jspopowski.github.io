@@ -1,2 +1,9 @@
 theme: minima
 title: Our Curious World
+
+header_pages:
+  - about.md
+  - archive.md
+collections:
+  categories:
+    output: true
