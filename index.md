@@ -3,6 +3,12 @@ layout: page
 title: About Me
 ---
 
+<div class="page-container">
+    <div class="background-container">
+        <img src="/docs/assets/Trichome.jpg" alt="Trichome Background" class="background-image">
+    </div>
+    <div class="content" markdown="1">
+
 ![Headshot image](/docs/assets/small_cropped_headshot.jpg)
 
 I'm a physicist exploring the intersection of active matter, biophysics, and intelligent materials. Currently, I'm pursuing my PhD at the University of Amsterdam, where my research focuses on building intelligent active matter systems. This work combines theoretical physics with experimental approaches to understand how we can create materials whose constituents can sense, remember, and respond to their environment.
@@ -41,3 +47,15 @@ My current PhD project involves scaling up robotic active matter systems to hund
 This blog serves as a platform where I break down complex physics concepts into accessible explanations. I believe in making scientific knowledge more approachable while maintaining technical accuracy. Whether you're a fellow physicist or simply curious about how our universe works, I hope you'll find something interesting here.
 
 Feel free to reach out if you have questions about my research or suggestions for blog topics!
+</div>
+
+<script>
+    // Function to update background image position
+    function updateImagePosition(x, y) {
+        document.documentElement.style.setProperty('--bg-position-x', `${x}%`);
+        document.documentElement.style.setProperty('--bg-position-y', `${y}%`);
+    }
+
+    // Example: Adjust these values to shift the image focus
+    updateImagePosition(35, 50);  // Shifts image 30% from left, centered vertically
+</script>
