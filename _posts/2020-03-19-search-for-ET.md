@@ -1,6 +1,6 @@
 ---
 layout: default
-title: How Will ET Hear Us? Reviewing Efforts to Communicate with Extraterrestrials
+title: Searching for ET, Past and Present
 ---
 
 # How Will ET Hear Us? Reviewing Efforts to Communicate with Extraterrestrials
