@@ -36,7 +36,7 @@ I recently completed a paper on the biomechanics of glandular trichome rupture (
 
 My current PhD project involves scaling up robotic active matter systems to hundreds of robots, while incorporating memory and environmental sensing capabilities. This work aims to bridge the gap between traditional active matter studies and intelligent materials that can process information about their environment.
 
-## Blog
+## Posts
 
 This blog serves as a platform where I break down complex physics concepts into accessible explanations. I believe in making scientific knowledge more approachable while maintaining technical accuracy. Whether you're a fellow physicist or simply curious about how our universe works, I hope you'll find something interesting here.
 
