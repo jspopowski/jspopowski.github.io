@@ -1,3 +1,8 @@
+---
+layout: default
+title: How Will ET Hear Us? Reviewing Efforts to Communicate with Extraterrestrials
+---
+
 # How Will ET Hear Us? Reviewing Efforts to Communicate with Extraterrestrials
 ## By Jared Popowski
 ### 2020-03-19
