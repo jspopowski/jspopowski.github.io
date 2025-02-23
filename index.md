@@ -1,9 +1,11 @@
 ---
 layout: page
-title: About
+title: About Me
 ---
 
 # About Me
+
+![Headshot image](/docs/assets/small_cropped_headshot.jpg)
 
 I'm a physicist exploring the intersection of active matter, biophysics, and intelligent materials. Currently, I'm pursuing my PhD at the University of Amsterdam, where my research focuses on building intelligent active matter systems. This work combines theoretical physics with experimental approaches to understand how we can create materials whose constituents can sense, remember, and respond to their environment.
 
