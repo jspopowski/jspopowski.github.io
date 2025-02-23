@@ -9,6 +9,8 @@ This was my winning submission for Problem 2 of the [Canadian Association of Phy
 
 <object data="/docs/assets/CAP_2022_2023_Problem_Competition_Jared_Popowski.pdf" type="application/pdf" width="100%" height="800px">
     <p>Your browser doesn't support embedded PDFs. 
-    <a href="/docs/assets/CAP_2022_2023_Problem_Competition_Jared_Popowski.pdf">Click here to download the PDF file.</a>
+    <a href="{{ site.url }}/docs/assets/CAP_2022_2023_Problem_Competition_Jared_Popowski.pdf">Click here to download the PDF file.</a>
     </p>
 </object>
+
+[Direct download link]({{ site.url }}/docs/assets/CAP_2022_2023_Problem_Competition_Jared_Popowski.pdf)
