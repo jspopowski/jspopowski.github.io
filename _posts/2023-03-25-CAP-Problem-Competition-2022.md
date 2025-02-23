@@ -18,23 +18,23 @@ For a human in free fall, the dominant drag force is quadratic, and we can negle
 
 $$
 \begin{align}
-    m\frac{d^2\boldsymbol{x}}{dt^2} &= m\boldsymbol{g}-cv^2\boldsymbol{\hat{v}} \nonumber \\
-    &=m\boldsymbol{g}-cv\boldsymbol{v}, \label{vel_EOM}
+    m\frac{d^2\boldsymbol{x}}{dt^2} &= m\boldsymbol{g}-cv^2\boldsymbol{\hat{v}} \tag{1} \\
+    &=m\boldsymbol{g}-cv\boldsymbol{v}, \tag{vel_EOM}
 \end{align}
 $$
 
 where the coefficient $c$ for an object with frontal area $A$ in a fluid of density $\rho$ is defined as
 
 $$
-\begin{equation}\label{coeff}
-c = \frac{1}{2}\rho C_{D}A.
+\begin{equation}
+c = \frac{1}{2}\rho C_{D}A \tag{coeff}
 \end{equation}
 $$
 
 Here $C_{D}$ is called the drag coefficient, which depends on the shape and orientation of the object and the Reynolds number. Splitting Equation (\ref{vel_EOM}) into component form, we find
 
 $$
-\begin{equation}\label{components}
+\begin{equation}\tag{components}
 \begin{rcases}
  m\dot{v}_x &= -c\sqrt{v_x^2+v_y^2}v_x\\
  m\dot{v}_y &= -mg-c\sqrt{v_x^2+v_y^2}v_y.
@@ -46,7 +46,7 @@ This is a pair of coupled differential equations which cannot be solved analytic
 
 $$
 \begin{equation*}
-    v_x(0) = \text{1 m/s $\;\;\;\; v_y(0)=0$ m/s},
+    v_x(0) = \text{1 m/s, $v_y(0)=0$ m/s},
 \end{equation*}
 $$
 
@@ -93,9 +93,12 @@ Conduction and convection are fundamentally the same: heat is transferred betwee
 
 Since the diver is only in contact with the air during the jump and is moving relative to this air, we can safely ignore the effects of conduction. For convection, to a good approximation the thermal power losses or gains (in units of \si{W}) are proportional to the object's surface area and temperature difference with the surrounding fluid \cite{ubc},
 
+$$
 \begin{equation}
 P \approx K_{C}A(T_{\text{obj}}-T_{\text{env}}),
 \end{equation}
+$$
+
 where $T_{\text{obj}}$ and $T_{\text{env}}$ are the temperatures of the object and fluid respectively, and $K_{C}$ is an empirical coefficient that depends on the chemical constituents and geometry of the object and the object's relative velocity with the fluid (units of \si{W/(K\cdot m^2)}). For the human body, this coefficient is listed in Figure \ref{Kc} for various relative airspeeds.
 
 \begin{figure}
@@ -123,54 +126,86 @@ From our Python solution to Equation (\ref{components}), we can find the times a
 \end{table}
 
 Hence, a decent approximation for the convective power lost by the diver over the course of the fall is obtained by applying the relevant convection coefficients $K_C$ over the portion of the trajectory falling between two tabled speeds. This gives us
+
+$$
 \begin{align}
     Q_{\text{con}}=P\cdot t_{f}\approx \big[&(\qty{3}{W/(K\cdot m^2)})(\qty{0.177}{s}) \nonumber \\
     &+(\qty{26}{W/(K\cdot m^2)})(\qty{1.03}{s}-\qty{0.177}{s}) \nonumber \\
     &+(\qty{37}{W/(K\cdot m^2)})(\qty{2.12}{s}-\qty{1.03}{s}) \nonumber \\
-    &+(\qty{41}{W/(K\cdot m^2)})(\qty{2.71}{s}-\qty{2.12}{s})\big]A(T_{\text{obj}}-T_{\text{env}}) \label{convective}
+    &+(\qty{41}{W/(K\cdot m^2)})(\qty{2.71}{s}-\qty{2.12}{s})\big]A(T_{\text{obj}}-T_{\text{env}}) \tag{convective}
 \end{align}
+$$
+
 The typical body surface area for a human is about $A=\qty{1.8}{m^2}$ \cite{body}. We also assume that the diver's body temperature is $T_{\text{obj}}=\SI{37}{\celsius}$ and the air is at a temperature of $T_{\text{env}}=\SI{20}{\celsius}$. Plugging this into Equation (\ref{convective}) above, we find that **the convective heat loss of the diver during the fall is approximately**
+
+$$
 \begin{equation*}
     Q_{\text{con}}=\SI{2669}{\joule}.
 \end{equation*}
+$$
 
 ##### Radiation
 The average thermal power emitted from a human body due to the combination of metabolic processes varies depending on the level of activity, but is approximately \qty{100}{W} at any given time \cite{ubc}. Since the fall time was $t_f=\qty{2.71}{s}$, \textbf{the heat radiated over the course of the fall is then approximately}
+
+$$
 \begin{equation*}
     Q_{\text{rad}} = \qty{100}{W}\times\qty{2.71}{s}=\SI{271}{\joule}.
 \end{equation*}
+$$
 
 ##### Evaporation
 It takes some thermal energy for a substance to change its phase, called the *latent heat* of the transition. At all times, water on the skin or in the lungs is absorbing heat from the body, and when this heat equals the latent heat of vaporization the water turns into vapor. This is why sweating works to cool you down on a hot day in the summer: excess water on your skin draws away heat from your skin and vaporizes, carrying the excess thermal energy with it.
 
 Let's assume there is no visible sweating from the diver on a comfortable $\SI{20}{\celsius}$ day in Acapulco. Still, the total evaporative loss will be approximately 25-30\% of their metabolic rate \cite{ubc}. In the radiation section we learned that the metabolic rate is about \qty{100}{W}, meaning that the evaporative thermal power lost is about \qty{30}{W}. **Over the course of the fall, the heat lost to evaporation is then approximately**
+
+$$
 \begin{equation*}
     Q_{\text{evap}} = \qty{30}{W}\times\qty{2.71}{s}=\SI{81}{\joule}.
 \end{equation*}
+$$
 
 ##### Drag
 We should calculate what the speed *would* be of the diver before they hit the water, if air resistance was not a thing. If it is faster than the \qty{25}{m/s}, the difference in kinetic energy is explained by the friction involved in pushing air molecules out of the way, also known as drag.
 
 Calling the zero of potential energy the surface of the water, the initial gravitational potential energy is
+
+$$
 \begin{equation*}
 mgh=(\qty{70}{kg})(\qty{9.8}{m/s^2})(\qty{35}{m}) = \SI{24010}{\joule},
 \end{equation*}
+$$
+
 which all gets converted into kinetic energy at the bottom. Since the diver started with a kinetic energy of
+
+$$
 \begin{equation*}
 \frac{1}{2}mv^2=\frac{1}{2}(\qty{70}{kg})(\qty{1}{m/s})^2 = \SI{35}{\joule},
 \end{equation*}
+$$
+
 the total kinetic energy at the surface of the water in the absence of any drag/friction would be $\SI{24010}{\joule}+\SI{35}{\joule}=\SI{24045}{\joule}$, which would lead to a final speed of
+
+$$
 \begin{equation*}
     v = \sqrt{(2\times \qty{24045}{J})/\qty{70}{kg}}=\qty{26.21}{m/s}.
 \end{equation*}
-Since we are told that the diver's speed is $\qty{25}{m/s}$ just as they enter the water, which is a kinetic energy of $\SI{21875}{\joule}$, the difference in kinetic energy is entirely due to drag with the air, which manifests as increased thermal energy for the air molecules near the diver's body, but also in part on the surface of the diver's body. \textbf{So the thermal energy transferred to the air and the diver's body as a result of drag is}
+$$
+
+Since we are told that the diver's speed is $\qty{25}{m/s}$ just as they enter the water, which is a kinetic energy of $\SI{21875}{\joule}$, the difference in kinetic energy is entirely due to drag with the air, which manifests as increased thermal energy for the air molecules near the diver's body, but also in part on the surface of the diver's body. **So the thermal energy transferred to the air and the diver's body as a result of drag is**
+
+$$
 \begin{equation*}
     Q_{\text{drag}}=\SI{24045}{\joule}-\SI{21875}{\joule} = \SI{2170}{\joule}.
 \end{equation*}
+$$
 
 #### Answer - Total Thermal energy
 Combining all of the various thermal contributions, we find that the total thermal energy produced over the course of the fall is
+
+$$
 \begin{equation}
     Q_{\text{tot}} = Q_{\text{con}} + Q_{\text{rad}} + Q_{\text{evap}} + Q_{\text{drag}} = \SI{5191}{\joule}.
 \end{equation}
+$$
+
 Recalling that $\SI{1}{\calorie}=\SI{4.184}{\joule}$, and the dietary Calorie is $\SI{1}{\Calorie}=\SI{1000}{\calorie}=\SI{4184}{\joule}$, we see that our result is on the same order as a single dietary Calorie. If somehow captured, this amount of thermal energy could be used to raise \qty{1}{kg} of water by \SI{1}{\celsius}. In reality, however, this energy is primarily transferred to the air molecules in the diver's path as they fall, slightly heating up the air locally. The surface of the diver's body also marginally heats up during the dive due to drag, though this is a smaller effect because the specific heat capacity of air ($\sim \qty{1}{kJ/(kg\cdot K)}$) is smaller than that of the human body ($\sim \qty{3}{kJ/(kg\cdot K)}$) \cite{air,heat_bod}.
