@@ -4,7 +4,6 @@ title: Searching for ET, Past and Present
 ---
 
 # How Will ET Hear Us? Reviewing Efforts to Communicate with Extraterrestrials
-## By Jared Popowski
 ### 2020-03-19
 
 *This blog post comes from a paper that I wrote for the Bachelor's-level class "Search for Life in the Universe" that I took at CU Boulder in the summer of 2019. I am by no means a SETI expert, so don't be surprised if I say something dumb.*
