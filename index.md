@@ -32,7 +32,7 @@ My current work investigates how we can push the boundaries of active matter bey
 
 ## Recent Work
 
-I recently completed a paper on the biomechanics of glandular trichome rupture ([arXiv 2412.14507](https://arxiv.org/abs/2412.14507)), which was presented at NWO Biophysics and JMC 2024 in Marseille. This work exemplifies my interest in connecting physical principles to biological systems.
+I recently completed a paper on the biomechanics of glandular trichome rupture ([arXiv 2412.14507](https://arxiv.org/abs/2412.14507)), which was presented at NWO Biophysics and JMC 2024 in Marseille. New Scientist even [published an article](https://www.newscientist.com/article/2463134-tomato-plants-are-covered-in-tiny-anti-pest-booby-traps/) and [made a YouTube video about the paper!](https://www.youtube.com/watch?v=8h88eIaWfpM)
 
 My current PhD project involves scaling up robotic active matter systems to hundreds of robots, while incorporating memory and environmental sensing capabilities. This work aims to bridge the gap between traditional active matter studies and intelligent materials that can process information about their environment.
 
