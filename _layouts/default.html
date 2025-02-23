@@ -5,6 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if page.title %}{{ page.title | escape }} - {% endif %}{{ site.title | escape }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    
+    <!-- MathJax Configuration -->
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']],
+          packages: {'[+]': ['physics', 'ams']},  // Added physics and ams packages
+          tags: 'ams'  // Enable equation numbering
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+    
+    <!-- Citation styling -->
+    <style>
+      .citation {
+        font-size: 0.9em;
+        color: #2a2a2a;
+      }
+      .citation:before {
+        content: "[";
+      }
+      .citation:after {
+        content: "]";
+      }
+      
+      /* Equation styling */
+      .MathJax {
+        overflow-x: auto;
+        overflow-y: hidden;
+      }
+    </style>
   </head>
   <body>
     {% include header.html %}
@@ -16,5 +52,18 @@
     </main>
 
     {% include footer.html %}
+    
+    <!-- Citation processing script -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        // Convert \cite{ref} to linked citations
+        const citeRegex = /\\cite{([^}]+)}/g;
+        document.querySelector('.wrapper').innerHTML = 
+          document.querySelector('.wrapper').innerHTML.replace(
+            citeRegex, 
+            '<span class="citation">$1</span>'
+          );
+      });
+    </script>
   </body>
 </html>
