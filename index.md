@@ -47,7 +47,6 @@ My current PhD project involves scaling up robotic active matter systems to hund
 This blog serves as a platform where I break down complex physics concepts into accessible explanations. I believe in making scientific knowledge more approachable while maintaining technical accuracy. Whether you're a fellow physicist or simply curious about how our universe works, I hope you'll find something interesting here.
 
 Feel free to reach out if you have questions about my research or suggestions for blog topics!
-    </div>
 </div>
 
 <script>
