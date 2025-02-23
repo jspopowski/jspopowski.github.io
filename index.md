@@ -5,7 +5,7 @@ title: About Me
 
 <div class="page-container">
     <div class="background-container">
-        <img src="/docs/assets/your-background-image.png" alt="Background" class="background-image">
+        <img src="/docs/assets/Trichome.jpg" alt="Background" class="background-image">
     </div>
     <div class="content" markdown="1">
 
