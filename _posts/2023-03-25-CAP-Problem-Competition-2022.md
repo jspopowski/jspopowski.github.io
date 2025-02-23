@@ -1,3 +1,8 @@
+---
+layout: default
+title: CAP 2022/23 Problem Competition Submission
+---
+
 # CAP 2022/23 Problem Competition Submission
 ## Jared Popowski
 This was my winning submission for Problem 2 of the [Canadian Association of Physicists Student Advisory Council Problem Competition 2022.](https://sac.cap.ca/index.php/events/sac-problem-competition-2022/)
