@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Posts
-permalink: /blog/
+permalink: /posts/
 ---
 
 {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
