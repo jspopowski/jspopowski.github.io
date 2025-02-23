@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CAP 2022/23 Problem Competition Submission
+title: CAP 2022/23 Problem Competition - Winner!
 ---
 
 # CAP 2022/23 Problem Competition Submission
