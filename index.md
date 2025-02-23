@@ -58,5 +58,5 @@ Feel free to reach out if you have questions about my research or suggestions fo
     }
 
     // Example: Adjust these values to shift the image focus
-    updateImagePosition(20, 50);  // Shifts image 30% from left, centered vertically
+    updateImagePosition(25, 50);  // Shifts image 30% from left, centered vertically
 </script>
