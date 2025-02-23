@@ -1,3 +1,8 @@
+---
+layout: default
+title: Applying Game Theory to Traffic - El Farol Bar Problem
+---
+
 # Why is Traffic So Unpredictable? An Application of the El Farol Bar Problem
 ### 2021-06-30
 
