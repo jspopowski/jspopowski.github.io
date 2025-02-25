@@ -13,6 +13,9 @@ title: About Me
 
 I'm a physicist exploring the intersection of active matter, biophysics, and intelligent materials. Currently, I'm pursuing my PhD at the University of Amsterdam, where my research focuses on building intelligent active matter systems. This work combines theoretical physics with experimental approaches to understand how we can create materials whose constituents can sense, remember, and respond to their environment.
 
+## Contact
+Email: [j.s.popowski@uva.nl](mailto:j.s.popowski@uva.nl)
+
 ## Research Interests
 
 My current work investigates how we can push the boundaries of active matter beyond simple stochastic particles. I'm particularly interested in:
