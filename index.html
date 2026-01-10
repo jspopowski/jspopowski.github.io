@@ -1,0 +1,126 @@
+---
+layout: home
+title: Home
+---
+
+<!-- Research Highlights -->
+<section class="section">
+  <div class="container">
+    <div class="section-header section-header--center animate-on-scroll">
+      <p class="section-header__label">Research</p>
+      <h2 class="section-header__title">Current Work</h2>
+      <p class="section-header__description">
+        Building intelligent materials that can sense, remember, and respond to their environment.
+      </p>
+    </div>
+
+    <div class="grid grid--3">
+      <div class="card card--glow research-card animate-on-scroll animate-on-scroll--delay-1">
+        <img src="{{ '/docs/assets/robots_charging.jpg' | relative_url }}" alt="Robotic active matter" class="research-card__image">
+        <p class="card__label">Active Matter</p>
+        <h3 class="card__title">Intelligent Robotic Swarms</h3>
+        <p class="card__description">
+          Scaling up robotic active matter systems to hundreds of robots with memory and environmental sensing capabilities.
+        </p>
+        <a href="{{ '/research' | relative_url }}#active-matter" class="btn btn--small btn--secondary">Learn more</a>
+      </div>
+
+      <div class="card card--glow research-card animate-on-scroll animate-on-scroll--delay-2">
+        <img src="{{ '/docs/assets/tomato_glandular_trichomes_across_scales.png' | relative_url }}" alt="Trichome research" class="research-card__image">
+        <p class="card__label">Biophysics</p>
+        <h3 class="card__title">Plant Defense Mechanics</h3>
+        <p class="card__description">
+          Discovering the ultra-fast biomechanics of glandular trichome rupture as a defense mechanism in tomato plants.
+        </p>
+        <a href="{{ '/research' | relative_url }}#biophysics" class="btn btn--small btn--secondary">Learn more</a>
+      </div>
+
+      <div class="card card--glow research-card animate-on-scroll animate-on-scroll--delay-3">
+        <img src="{{ '/docs/assets/cage_break_graphic_nice_design.png' | relative_url }}" alt="Cage breaking dynamics" class="research-card__image">
+        <p class="card__label">Statistical Physics</p>
+        <h3 class="card__title">Information Dynamics</h3>
+        <p class="card__description">
+          Understanding information dynamics in the yielding transition of amorphous solids and cage-breaking phenomena.
+        </p>
+        <a href="{{ '/research' | relative_url }}#statistical-physics" class="btn btn--small btn--secondary">Learn more</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Featured Publication -->
+<section class="section" style="background: var(--bg-secondary);">
+  <div class="container">
+    <div class="section-header animate-on-scroll">
+      <p class="section-header__label">Featured</p>
+      <h2 class="section-header__title">Recent Publication</h2>
+    </div>
+
+    <div class="card animate-on-scroll">
+      <div class="publication-card">
+        <p class="publication-card__venue">Journal of Experimental Botany, 2025</p>
+        <h3 class="publication-card__title">
+          Glandular trichome rupture in tomato plants is an ultra-fast and sensitive defense mechanism against insects
+        </h3>
+        <p class="publication-card__authors">
+          J Popowski, L Warma, A Abarca Cifuentes, P Bleeker, M Jalaal
+        </p>
+        <div class="publication-card__links">
+          <a href="https://doi.org/10.1093/jxb/eraf257" class="publication-card__link" target="_blank" rel="noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <line x1="10" y1="14" x2="21" y2="3"></line>
+            </svg>
+            DOI
+          </a>
+          <a href="https://www.newscientist.com/article/2463134-tomato-plants-are-covered-in-tiny-anti-pest-booby-traps/" class="publication-card__link" target="_blank" rel="noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"></path>
+              <path d="M18 14h-8"></path>
+              <path d="M15 18h-5"></path>
+              <path d="M10 6h8v4h-8V6Z"></path>
+            </svg>
+            New Scientist
+          </a>
+          <a href="https://www.youtube.com/watch?v=8h88eIaWfpM" class="publication-card__link" target="_blank" rel="noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="5 3 19 12 5 21 5 3"></polygon>
+            </svg>
+            Video
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Recent Posts -->
+<section class="section">
+  <div class="container">
+    <div class="section-header animate-on-scroll">
+      <p class="section-header__label">Blog</p>
+      <h2 class="section-header__title">Recent Posts</h2>
+      <p class="section-header__description">
+        Breaking down complex physics concepts into accessible explanations.
+      </p>
+    </div>
+
+    <div class="post-list">
+      {% for post in site.posts limit:3 %}
+      <a href="{{ post.url | relative_url }}" class="post-item animate-on-scroll">
+        <span class="post-item__date">{{ post.date | date: "%b %d, %Y" }}</span>
+        <span class="post-item__title">{{ post.title }}</span>
+        <svg class="post-item__arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="5" y1="12" x2="19" y2="12"></line>
+          <polyline points="12 5 19 12 12 19"></polyline>
+        </svg>
+      </a>
+      {% endfor %}
+    </div>
+
+    <div class="text-center mt-xl animate-on-scroll">
+      <a href="{{ '/blog' | relative_url }}" class="btn btn--secondary">View all posts</a>
+    </div>
+  </div>
+</section>

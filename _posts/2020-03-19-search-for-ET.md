@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Searching for ET, Past and Present
 ---
 

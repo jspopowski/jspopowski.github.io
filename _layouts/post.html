@@ -1,0 +1,32 @@
+---
+layout: default
+mathjax: true
+---
+
+<article class="post">
+  <div class="container container--narrow">
+    <header class="post__header animate-on-scroll">
+      <p class="post__meta">{{ page.date | date: "%B %d, %Y" }}</p>
+      <h1 class="post__title">{{ page.title }}</h1>
+      {% if page.description %}
+      <p class="post__description">{{ page.description }}</p>
+      {% endif %}
+    </header>
+
+    <div class="post__content animate-on-scroll">
+      {{ content }}
+    </div>
+
+    <footer class="post__footer animate-on-scroll">
+      <div style="margin-top: var(--space-3xl); padding-top: var(--space-xl); border-top: 1px solid var(--border-color);">
+        <a href="{{ '/blog' | relative_url }}" class="btn btn--secondary">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+          </svg>
+          Back to all posts
+        </a>
+      </div>
+    </footer>
+  </div>
+</article>

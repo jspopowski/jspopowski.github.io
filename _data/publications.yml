@@ -1,0 +1,38 @@
+- title: "Glandular trichome rupture in tomato plants is an ultra-fast and sensitive defense mechanism against insects"
+  authors: "J Popowski, L Warma, A Abarca Cifuentes, P Bleeker, M Jalaal"
+  venue: "Journal of Experimental Botany"
+  year: 2025
+  doi: "10.1093/jxb/eraf257"
+  citations: 5
+  featured: true
+  category: "biophysics"
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1093/jxb/eraf257"
+    - label: "New Scientist"
+      url: "https://www.newscientist.com/article/2463134-tomato-plants-are-covered-in-tiny-anti-pest-booby-traps/"
+    - label: "YouTube"
+      url: "https://www.youtube.com/watch?v=8h88eIaWfpM"
+
+- title: "Precision test of the limits to universality in few-body physics"
+  authors: "R Chapurin, X Xie, MJ Van de Graaff, JS Popowski, JP D'Incao, PS Julienne, J Ye, EA Cornell"
+  venue: "Physical Review Letters"
+  year: 2019
+  volume: "123(23), 233402"
+  doi: "10.1103/PhysRevLett.123.233402"
+  citations: 88
+  featured: false
+  category: "atomic-physics"
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1103/PhysRevLett.123.233402"
+
+- title: "Information dynamics in the yielding transition of amorphous solids"
+  authors: "J Popowski"
+  venue: "University of British Columbia (MSc Thesis)"
+  year: 2023
+  featured: false
+  category: "statistical-physics"
+  links:
+    - label: "UBC Library"
+      url: "https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0436957"

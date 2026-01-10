@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Applying Game Theory to Traffic - El Farol Bar Problem
 ---
 

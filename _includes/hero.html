@@ -1,0 +1,26 @@
+<section class="hero">
+  <div class="hero__background">
+    <img src="{{ '/docs/assets/robots_charging.jpg' | relative_url }}" alt="Robotic active matter experimental setup">
+  </div>
+  <div class="hero__overlay"></div>
+
+  <div class="hero__content">
+    <p class="hero__greeting">Physicist & Researcher</p>
+    <h1 class="hero__title">{{ site.author.name }}</h1>
+    <p class="hero__subtitle">
+      Exploring intelligent active matter, biophysics, and the physics of living systems at the {{ site.author.institution }}.
+    </p>
+    <div class="hero__cta">
+      <a href="{{ '/research' | relative_url }}" class="btn btn--primary">View Research</a>
+      <a href="{{ '/about' | relative_url }}" class="btn btn--secondary">About Me</a>
+    </div>
+  </div>
+
+  <div class="hero__scroll">
+    <span>Scroll</span>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="12" y1="5" x2="12" y2="19"></line>
+      <polyline points="19 12 12 19 5 12"></polyline>
+    </svg>
+  </div>
+</section>

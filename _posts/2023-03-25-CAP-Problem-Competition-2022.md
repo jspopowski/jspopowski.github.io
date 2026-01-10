@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: CAP 2022/23 Problem Competition - Winner!
 ---
 

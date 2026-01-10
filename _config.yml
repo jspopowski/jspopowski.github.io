@@ -1,9 +1,40 @@
-theme: minima
+# Site settings
 title: Jared Popowski
+description: Physicist exploring intelligent active matter, biophysics, and the boundaries of living systems.
+url: "https://jaredpopowski.com"
+baseurl: ""
 
+# Author
+author:
+  name: Jared Popowski
+  email: j.s.popowski@uva.nl
+  institution: University of Amsterdam
+  department: Institute of Physics
+
+# Social links
+social:
+  email: j.s.popowski@uva.nl
+  scholar: https://scholar.google.com/citations?user=D18a24AAAAAJ
+  github: https://github.com/jspopowski
+  orcid: https://orcid.org/0009-0001-7507-5651
+  bluesky: https://bsky.app/profile/jaredpopo.bsky.social
+
+# Navigation
 header_pages:
   - about.md
+  - research.md
   - blog.md
-collections:
-  categories:
-    output: true
+  - contact.md
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude from build
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
