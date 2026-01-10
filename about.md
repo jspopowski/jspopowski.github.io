@@ -78,7 +78,7 @@ permalink: /about/
         <h3 class="card__title">MSc in Physics</h3>
         <p class="card__meta">University of British Columbia</p>
         <p class="card__description">
-          Research at UBC, supervised by Prof. Joerg Rottler, applying information theory to understand the predictability of plastic avalanches in driven amorphous solids. <a href="https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0436957" target="_blank" rel="noopener">Link to MSc Thesis.</a>
+          Research at UBC, supervised by Prof. Joerg Rottler, applying information theory to understand the predictability of plastic avalanches in driven amorphous solids. <a href="{{ '/docs/assets/theses/MSc_Thesis_2023.pdf' | relative_url }}" target="_blank" rel="noopener">Link to MSc Thesis.</a>
         </p>
       </div>
 
@@ -87,7 +87,7 @@ permalink: /about/
         <h3 class="card__title">BA in Physics & Mathematics</h3>
         <p class="card__meta">University of Colorado Boulder</p>
         <p class="card__description">
-          Double major in Physics and Mathematics, graduated summa cum laude. Research at JILA on ultracold atomic physics and Feshbach molecules, supervised by Profs. Eric Cornell and Jun Ye. Link to BA Thesis.
+          Double major in Physics and Mathematics, graduated summa cum laude. Research at JILA on ultracold atomic physics and Feshbach molecules, supervised by Profs. Eric Cornell and Jun Ye. <a href="{{ '/docs/assets/theses/BA_thesis_2019.pdf' | relative_url }}" target="_blank" rel="noopener">Link to BA Thesis.</a>
         </p>
       </div>
     </div>
