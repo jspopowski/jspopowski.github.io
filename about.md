@@ -15,7 +15,7 @@ permalink: /about/
       <div class="about__content">
         <div class="section-header animate-on-scroll">
           <p class="section-header__label">About</p>
-          <h1 class="section-header__title">Hello, I'm Jared</h1>
+          <h1 class="section-header__title">Hi, I'm Jared!</h1>
         </div>
 
         <div class="animate-on-scroll">
@@ -105,7 +105,7 @@ permalink: /about/
     <div class="animate-on-scroll" style="max-width: 600px; margin: 0 auto;">
       <img src="{{ '/docs/assets/IMG-20251004-WA0006.jpg' | relative_url }}" alt="Jared demonstrating robotic active matter" style="width: 100%; border-radius: var(--radius-lg); border: 1px solid var(--border-color);">
       <p class="text-center text-muted mt-md" style="font-size: 0.9rem;">
-        Demonstrating robotic active matter at the Institute of Physics
+        Demonstrating 3D-printed boats powered by alcohol at the Open Science Day of the University of Amsterdam — <a href="https://arxiv.org/abs/2411.16011" target="_blank" rel="noopener">these boats, designed in the group of Mazi Jalaal (my PhD supervisor) use the Marangoni effect to self-propel across a water surface.</a>
       </p>
     </div>
   </div>
