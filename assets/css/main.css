@@ -460,12 +460,35 @@ pre code {
 }
 
 [data-theme="light"] .hero__overlay {
+  /* Keep dark overlay in light mode since background image is dark */
   background: linear-gradient(
     180deg,
-    rgba(250, 251, 252, 0.3) 0%,
-    rgba(250, 251, 252, 0.6) 50%,
-    rgba(250, 251, 252, 0.95) 100%
+    rgba(10, 15, 26, 0.5) 0%,
+    rgba(10, 15, 26, 0.75) 50%,
+    rgba(250, 251, 252, 0.98) 100%
   );
+}
+
+/* Force hero text to be light-colored in light mode for contrast against dark image */
+[data-theme="light"] .hero__greeting {
+  color: #22d3ee;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="light"] .hero__title {
+  background: linear-gradient(135deg, #f1f5f9 0%, #22d3ee 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+[data-theme="light"] .hero__subtitle {
+  color: #e2e8f0;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+[data-theme="light"] .hero__scroll {
+  color: #94a3b8;
 }
 
 .hero__content {
