@@ -29,7 +29,7 @@ permalink: /research/
         <p class="card__label">Active Matter</p>
         <h3 class="card__title">Intelligent Robotic Swarms</h3>
         <p class="card__description">
-          Scaling up robotic active matter systems to hundreds of robots, incorporating memory and environmental sensing capabilities. This work aims to bridge the gap between traditional active matter studies and intelligent materials that can process information about their environment.
+          Scaling up our in-house robotic active matter system to hundreds of robots, incorporating memory and environmental sensing capabilities. Ultimately I want to help bridge the gap between traditional active matter studies and intelligent robotic materials that can process information about their environment.
         </p>
         <div class="card__tags">
           <span class="tag">Robotics</span>
@@ -53,9 +53,11 @@ permalink: /research/
 
       <div class="card card--glow animate-on-scroll" id="statistical-physics">
         <p class="card__label">Statistical Physics</p>
-        <h3 class="card__title">Information Dynamics in Glasses</h3>
+        <h3 class="card__title">Information Dynamics in (Active) Glasses</h3>
         <p class="card__description">
-          Understanding information dynamics in the yielding transition of amorphous solids. Studying cage-breaking phenomena and how information propagates through disordered systems.
+          Understanding information dynamics in the yielding transition of shear-driven amorphous solids 
+          <a href="https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0436957" target="_blank" rel="noopener">(see my Master's thesis from UBC).</a>
+          Studying cage-breaking phenomena and how information propagates through active disordered systems.
         </p>
         <div class="card__tags">
           <span class="tag">Glassy Dynamics</span>
@@ -68,7 +70,7 @@ permalink: /research/
         <p class="card__label">Ultracold Physics</p>
         <h3 class="card__title">Few-Body Physics</h3>
         <p class="card__description">
-          Previous work at JILA on precision tests of universality in few-body physics using ultracold potassium atoms. Studying Feshbach molecules and three-body recombination.
+          Previous work at JILA and CU Boulder on precision measurements of ultracold potassium atoms near Feshbach resonances and deviations from "universal" behavior predicted by few-body physics theory. In particular we studied the properties of Feshbach molecules and three-body recombination.
         </p>
         <div class="card__tags">
           <span class="tag">Ultracold Atoms</span>
@@ -85,16 +87,16 @@ permalink: /research/
   <div class="container">
     <div class="section-header section-header--center animate-on-scroll">
       <p class="section-header__label">Simulation</p>
-      <h2 class="section-header__title">Active Ornstein-Uhlenbeck Dynamics</h2>
+      <h2 class="section-header__title">Cage-breaking model for active matter</h2>
       <p class="section-header__description">
-        Cage-breaking dynamics of three active particles in circular confinement
+        Three active particles (active Ornstein-Uhlenbeck dynamics) in circular confinement
       </p>
     </div>
 
     <div class="animate-on-scroll" style="max-width: 500px; margin: 0 auto; text-align: center;">
       <img src="{{ '/docs/assets/AOUP trajectory movie, taup=1.gif' | relative_url }}" alt="Active Ornstein-Uhlenbeck particle dynamics simulation" style="width: 100%; border-radius: var(--radius-lg); border: 1px solid var(--border-color); background: white;">
       <p class="text-muted mt-md" style="font-size: 0.85rem;">
-        Simulation showing three active particles exhibiting cage-breaking behavior. The persistence time τ<sub>p</sub> = 1 determines the correlation time of the self-propulsion force.
+        Simulation showing three confined active particles exhibiting cage-breaking behavior, defined as when the particles rearrange their positions with respect to their neighbors. The persistence time τ<sub>p</sub> = 1 determines the correlation time of the self-propulsion force.
       </p>
     </div>
   </div>
