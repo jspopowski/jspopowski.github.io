@@ -69,7 +69,7 @@ permalink: /about/
         <h3 class="card__title">PhD in Physics</h3>
         <p class="card__meta">University of Amsterdam</p>
         <p class="card__description">
-          Research focus: Intelligent Active Matter and Biophysics. Developing robotic swarm systems with memory and environmental sensing.
+          Research focus: Intelligent Active Matter and Biophysics, in the group of Prof. Maziyar Jalaal. Developing robotic swarm systems with memory and environmental sensing.
         </p>
       </div>
 
@@ -78,7 +78,7 @@ permalink: /about/
         <h3 class="card__title">MSc in Physics</h3>
         <p class="card__meta">University of British Columbia</p>
         <p class="card__description">
-          Thesis: Information dynamics in the yielding transition of amorphous solids. Studied cage-breaking phenomena and glassy dynamics.
+          Research at UBC, supervised by Prof. Joerg Rottler, applying information theory to understand the predictability of plastic avalanches in driven amorphous solids. <a href="https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0436957" target="_blank" rel="noopener">Link to MSc Thesis.</a>
         </p>
       </div>
 
@@ -87,7 +87,7 @@ permalink: /about/
         <h3 class="card__title">BA in Physics & Mathematics</h3>
         <p class="card__meta">University of Colorado Boulder</p>
         <p class="card__description">
-          Double major in Physics and Mathematics. Research with JILA on ultracold atomic physics and Feshbach molecules.
+          Double major in Physics and Mathematics, graduated summa cum laude. Research at JILA on ultracold atomic physics and Feshbach molecules, supervised by Profs. Eric Cornell and Jun Ye. Link to BA Thesis.
         </p>
       </div>
     </div>
@@ -105,7 +105,7 @@ permalink: /about/
     <div class="animate-on-scroll" style="max-width: 600px; margin: 0 auto;">
       <img src="{{ '/docs/assets/IMG-20251004-WA0006.jpg' | relative_url }}" alt="Jared demonstrating robotic active matter" style="width: 100%; border-radius: var(--radius-lg); border: 1px solid var(--border-color);">
       <p class="text-center text-muted mt-md" style="font-size: 0.9rem;">
-        Demonstrating 3D-printed boats powered by alcohol at the Open Science Day of the University of Amsterdam — <a href="https://arxiv.org/abs/2411.16011" target="_blank" rel="noopener">these boats, designed in the group of Mazi Jalaal (my PhD supervisor) use the Marangoni effect to self-propel across a water surface.</a>
+        Demonstrating 3D-printed boats powered by alcohol at the Open Science Day of the University of Amsterdam — <a href="https://arxiv.org/abs/2411.16011" target="_blank" rel="noopener">these boats, designed in the group of Maziyar Jalaal (my PhD supervisor) use the Marangoni effect to self-propel across a water surface.</a>
       </p>
     </div>
   </div>
