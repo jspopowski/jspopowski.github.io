@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Applying Game Theory to Traffic - El Farol Bar Problem
+mathjax: true
 ---
 
 # Why is Traffic So Unpredictable? An Application of the El Farol Bar Problem
