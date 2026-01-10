@@ -10,7 +10,7 @@ permalink: /blog/
       <p class="section-header__label">Blog</p>
       <h1 class="section-header__title">Posts</h1>
       <p class="section-header__description">
-        Breaking down complex physics concepts into accessible explanations. Whether you're a fellow physicist or simply curious about how our universe works, I hope you'll find something interesting here.
+        A blog of mostly physics explanations/summaries of my research contributed to at stochastic intervals.
       </p>
     </div>
 
