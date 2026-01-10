@@ -19,8 +19,8 @@ permalink: /posters/
       <div class="poster-card animate-on-scroll" data-poster="trichomes">
         <div class="poster-card__header">
           <div class="poster-card__info">
-            <p class="poster-card__venue">NWO Physics @ Les Houches</p>
-            <h3 class="poster-card__title">Glandular Trichomes: A Plant's Fast & Sensitive Defense</h3>
+            <p class="poster-card__venue">NWO Physics</p>
+            <h3 class="poster-card__title">Glandular Trichome Rupture: Tomato Plant's Ultrafast & Sensitive Defense Against Insects</h3>
             <p class="poster-card__year">2025</p>
           </div>
           <div class="poster-card__actions">
