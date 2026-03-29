@@ -1,3 +1,13 @@
+- title: "Cage Breaking Far from Equilibrium"
+  authors: "J Popowski, N Schramma, E Lerner, M Jalaal"
+  venue: "arXiv"
+  year: 2026
+  featured: true
+  category: "statistical-physics"
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2603.14973"
+
 - title: "Glandular trichome rupture in tomato plants is an ultra-fast and sensitive defense mechanism against insects"
   authors: "J Popowski, L Warma, A Abarca Cifuentes, P Bleeker, M Jalaal"
   venue: "Journal of Experimental Botany"
