@@ -15,59 +15,7 @@ permalink: /posters/
     </div>
 
     <div class="posters-grid">
-      <!-- Poster 1: Trichomes -->
-      <div class="poster-card animate-on-scroll" data-poster="trichomes">
-        <div class="poster-card__header">
-          <div class="poster-card__info">
-            <p class="poster-card__venue">NWO Physics</p>
-            <h3 class="poster-card__title">Glandular Trichome Rupture: Tomato Plant's Ultrafast & Sensitive Defense Against Insects</h3>
-            <p class="poster-card__year">2025</p>
-          </div>
-          <div class="poster-card__actions">
-            <a href="{{ '/docs/assets/posters/Trichomes - NWO Physics, Les Houches 2025.pdf' | relative_url }}"
-               class="btn btn--small btn--secondary"
-               download
-               onclick="event.stopPropagation();">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                <polyline points="7 10 12 15 17 10"></polyline>
-                <line x1="12" y1="15" x2="12" y2="3"></line>
-              </svg>
-              Download
-            </a>
-            <button class="btn btn--small btn--primary poster-toggle">
-              <span class="poster-toggle__expand">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <polyline points="15 3 21 3 21 9"></polyline>
-                  <polyline points="9 21 3 21 3 15"></polyline>
-                  <line x1="21" y1="3" x2="14" y2="10"></line>
-                  <line x1="3" y1="21" x2="10" y2="14"></line>
-                </svg>
-                View
-              </span>
-              <span class="poster-toggle__collapse">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <polyline points="4 14 10 14 10 20"></polyline>
-                  <polyline points="20 10 14 10 14 4"></polyline>
-                  <line x1="14" y1="10" x2="21" y2="3"></line>
-                  <line x1="3" y1="21" x2="10" y2="14"></line>
-                </svg>
-                Collapse
-              </span>
-            </button>
-          </div>
-        </div>
-        <div class="poster-card__embed">
-          <object data="{{ '/docs/assets/posters/Trichomes - NWO Physics, Les Houches 2025.pdf' | relative_url }}"
-                  type="application/pdf"
-                  width="100%"
-                  height="800px">
-            <p>Unable to display PDF. <a href="{{ '/docs/assets/posters/Trichomes - NWO Physics, Les Houches 2025.pdf' | relative_url }}">Download instead</a>.</p>
-          </object>
-        </div>
-      </div>
-
-      <!-- Poster 2: Active Caging -->
+      <!-- Poster 1: Active Caging -->
       <div class="poster-card animate-on-scroll" data-poster="active-caging">
         <div class="poster-card__header">
           <div class="poster-card__info">
@@ -115,6 +63,58 @@ permalink: /posters/
                   width="100%"
                   height="800px">
             <p>Unable to display PDF. <a href="{{ '/docs/assets/posters/Active Caging - NWO Physics 2026.pdf' | relative_url }}">Download instead</a>.</p>
+          </object>
+        </div>
+      </div>
+
+      <!-- Poster 2: Trichomes -->
+      <div class="poster-card animate-on-scroll" data-poster="trichomes">
+        <div class="poster-card__header">
+          <div class="poster-card__info">
+            <p class="poster-card__venue">NWO Physics</p>
+            <h3 class="poster-card__title">Glandular Trichome Rupture: Tomato Plant's Ultrafast & Sensitive Defense Against Insects</h3>
+            <p class="poster-card__year">2025</p>
+          </div>
+          <div class="poster-card__actions">
+            <a href="{{ '/docs/assets/posters/Trichomes - NWO Physics, Les Houches 2025.pdf' | relative_url }}"
+               class="btn btn--small btn--secondary"
+               download
+               onclick="event.stopPropagation();">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              Download
+            </a>
+            <button class="btn btn--small btn--primary poster-toggle">
+              <span class="poster-toggle__expand">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <polyline points="9 21 3 21 3 15"></polyline>
+                  <line x1="21" y1="3" x2="14" y2="10"></line>
+                  <line x1="3" y1="21" x2="10" y2="14"></line>
+                </svg>
+                View
+              </span>
+              <span class="poster-toggle__collapse">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="4 14 10 14 10 20"></polyline>
+                  <polyline points="20 10 14 10 14 4"></polyline>
+                  <line x1="14" y1="10" x2="21" y2="3"></line>
+                  <line x1="3" y1="21" x2="10" y2="14"></line>
+                </svg>
+                Collapse
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="poster-card__embed">
+          <object data="{{ '/docs/assets/posters/Trichomes - NWO Physics, Les Houches 2025.pdf' | relative_url }}"
+                  type="application/pdf"
+                  width="100%"
+                  height="800px">
+            <p>Unable to display PDF. <a href="{{ '/docs/assets/posters/Trichomes - NWO Physics, Les Houches 2025.pdf' | relative_url }}">Download instead</a>.</p>
           </object>
         </div>
       </div>
